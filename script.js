@@ -18,6 +18,16 @@ window.onscroll = () => {
         }
     })
 }
+// Timeline item
+document.querySelectorAll('.timeline-item').forEach(item => {
+    item.addEventListener('click', function() {
+        const link = item.getAttribute('data-link');
+        if (link) {
+            window.open(link, '_blank');
+        }
+    });
+});
+
 
 
 menuIcon.onclick = () => {

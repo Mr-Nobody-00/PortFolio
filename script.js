@@ -100,5 +100,17 @@ window.addEventListener('click', function(event) {
     }
 });
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll(".service-box").forEach(box => {
+        box.addEventListener("click", function() {
+            const link = this.getAttribute("data-link");
+            if (link) {
+                window.open(link, "_blank"); // Opens in a new tab
+            }
+        });
+    });
+});
+
 // Initialize first slide as active
 goToSlide(0);

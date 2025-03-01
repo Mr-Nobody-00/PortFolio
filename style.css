@@ -253,15 +253,15 @@ span{
 @keyframes words {
     0%,
     20%{
-        content: "Backend Designer"; 
+        content: "Backend Developer"; 
     }
     21%,
     40%{
-        content: "Web Designer";
+        content: "Software Engineer";
     }
     41%,
     60%{
-        content: "UI / UX Designer";
+        content: "Cyber Enthusiast";
     }
     61%,
     80%{
@@ -269,7 +269,7 @@ span{
     }
     81%,
     100%{
-        content: "Software Engineer";
+        content: "Full Stack Developer";
     }
 }
 @keyframes typing {
@@ -539,7 +539,7 @@ span{
     position: relative;
     bottom: 0;
     width: 100%;
-    padding: 400px 0;
+    padding: 50px 0;
     background-color: var(--second-bg-color);
  }
  .footer .social{
